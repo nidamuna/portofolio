@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.b99f34a8.css",
-    "main.js": "/portofolio/static/js/main.5ee47042.js",
+    "main.js": "/portofolio/static/js/main.de6a966e.js",
     "static/js/27.a6fa944c.chunk.js": "/portofolio/static/js/27.a6fa944c.chunk.js",
     "static/media/jataka.png": "/portofolio/static/media/jataka.77ecfd9a7329cbe8f227.png",
     "static/media/me.png": "/portofolio/static/media/me.f3ebc43717163db5b44d.png",
@@ -13,6 +13,6 @@
   },
   "entrypoints": [
     "static/css/main.b99f34a8.css",
-    "static/js/main.5ee47042.js"
+    "static/js/main.de6a966e.js"
   ]
 }
