@@ -74,9 +74,11 @@ const Projects = () => {
                         my professional background, I kindly invite 
                         you to review my resume.
                     </h1>
-                    <button className='hover:scale-110 mt-6 border-2 border-[#3a0f6c] px-4 py-2 rounded-full'>
-                        Go to my resume
-                    </button>
+                    <a href="resume" >
+                        <button className='hover:scale-110 mt-6 border-2 border-[#3a0f6c] px-4 py-2 rounded-full'>
+                            Go to my resume
+                        </button>
+                    </a>
                 </div>
            </div>
         </div>
