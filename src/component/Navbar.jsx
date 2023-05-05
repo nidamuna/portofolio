@@ -14,22 +14,24 @@ const Navbar = () => {
         {
           name: 'Resume',
           icon: <AiOutlineFileText />,
-          url: "resume"
+          url: "portofolio/resume"
         },
         {
           name: 'About Me',
           icon: <BsPersonFill />,
-          url: "about"
+          url: "portofolio/about"
         },
       ];
   return (
     <>
         <div className='w-full p-4 flex justify-between items-center cursor-pointer'>
-            <img 
-                className='w-8 h-8 hover:scale-125'
-                src={Logo} 
-                alt="Nida Muna" 
-            />
+            <a href="/portofolio">
+                <img 
+                    className='w-8 h-8 hover:scale-125'
+                    src={Logo} 
+                    alt="Nida Muna" 
+                />
+            </a>
             <div className='hover:scale-110 flex justify-center items-center gap-1'>
                 <GrMail />
                 <h1 className='font-medium text-[16px]'>
