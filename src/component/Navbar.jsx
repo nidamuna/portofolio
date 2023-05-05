@@ -14,13 +14,13 @@ const Navbar = () => {
         {
           name: 'Resume',
           icon: <AiOutlineFileText />,
-          url: "portofolio/resume"
+          url: "resume"
         },
         {
           name: 'About Me',
           icon: <BsPersonFill />,
-          url: "portofolio/about"
-        },
+          url: "about"
+        }
       ];
   return (
     <>
