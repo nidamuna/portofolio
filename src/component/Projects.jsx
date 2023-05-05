@@ -4,6 +4,7 @@ import mvn from '../assets/mvn.png'
 import jataka from '../assets/jataka.png'
 import digi from '../assets/digismart.png'
 import perpus from '../assets/perpus.png'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
     const proj=[
@@ -81,11 +82,11 @@ const Projects = () => {
                         my professional background, I kindly invite 
                         you to review my resume.
                     </h1>
-                    <a href="resume" >
+                    <Link to="/portofolio/resume" >
                         <button className='hover:scale-110 mt-6 border-2 border-[#3a0f6c] px-4 py-2 rounded-full'>
                             Go to my resume
                         </button>
-                    </a>
+                    </Link>
                 </div>
            </div>
         </div>

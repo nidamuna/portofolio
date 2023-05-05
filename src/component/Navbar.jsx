@@ -10,7 +10,7 @@ const Navbar = () => {
         {
           name: 'Projects',
           icon: <BsPersonWorkspace />,
-          url: "#projects"
+          url: "/portofolio/projects"
         },
         {
           name: 'Resume',
