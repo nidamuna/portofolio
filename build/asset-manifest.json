@@ -1,18 +1,31 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.b99f34a8.css",
-    "main.js": "/portofolio/static/js/main.de6a966e.js",
+    "main.css": "/portofolio/static/css/main.f61071b9.css",
+    "main.js": "/portofolio/static/js/main.4e627818.js",
     "static/js/27.a6fa944c.chunk.js": "/portofolio/static/js/27.a6fa944c.chunk.js",
     "static/media/jataka.png": "/portofolio/static/media/jataka.77ecfd9a7329cbe8f227.png",
     "static/media/me.png": "/portofolio/static/media/me.f3ebc43717163db5b44d.png",
     "static/media/hli.png": "/portofolio/static/media/hli.6322c9142e80f805f868.png",
     "static/media/digismart.png": "/portofolio/static/media/digismart.0be06bd8500f97ffed7e.png",
     "static/media/mvn.png": "/portofolio/static/media/mvn.147254ccac42fd26b0f7.png",
+    "static/media/cpanel.jpg": "/portofolio/static/media/cpanel.6a6cccf67c7e58aa0dfc.jpg",
     "static/media/logo.png": "/portofolio/static/media/logo.8e413af6dc1402eee73e.png",
-    "index.html": "/portofolio/index.html"
+    "static/media/wordpress.svg": "/portofolio/static/media/wordpress.b18b181544ddacc548bbf41b675eb73c.svg",
+    "static/media/react.svg": "/portofolio/static/media/react.7c738c950f567912bdc20a7e1a0af183.svg",
+    "static/media/postman.svg": "/portofolio/static/media/postman.60895d7a153ae80b245007a5d6c0cbde.svg",
+    "static/media/python.svg": "/portofolio/static/media/python.8cfa0a9db040ecc11a3017ff5536ef5e.svg",
+    "static/media/php.svg": "/portofolio/static/media/php.1d00ad0024bb4c5f6e40512d5e2fb632.svg",
+    "static/media/java.svg": "/portofolio/static/media/java.5e5d1c4b2afd5c760aa1de6a6d1e58a0.svg",
+    "static/media/css.svg": "/portofolio/static/media/css.b83f99530e4b82f5826a8f7f46c0ee9b.svg",
+    "static/media/html.svg": "/portofolio/static/media/html.2b36cd2143b950115530edfde54f21ac.svg",
+    "static/media/github.svg": "/portofolio/static/media/github.3180505b44353fbb3a5dcc21e56dfee0.svg",
+    "static/media/git.svg": "/portofolio/static/media/git.edd16ea0c2abbdab94134ca45d672605.svg",
+    "index.html": "/portofolio/index.html",
+    "static/media/elementor.svg": "/portofolio/static/media/elementor.f2226269b265166c4e315985674f2dc7.svg",
+    "static/media/npm.svg": "/portofolio/static/media/npm.6200546b4fadc8853083a7f58e2cb2ae.svg"
   },
   "entrypoints": [
-    "static/css/main.b99f34a8.css",
-    "static/js/main.de6a966e.js"
+    "static/css/main.f61071b9.css",
+    "static/js/main.4e627818.js"
   ]
 }
