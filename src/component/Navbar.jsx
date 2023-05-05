@@ -3,6 +3,7 @@ import Logo from '../assets/logo.png'
 import {BsPersonWorkspace, BsPersonFill} from 'react-icons/bs'
 import {AiOutlineFileText} from 'react-icons/ai'
 import {GrMail} from 'react-icons/gr'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const links = [
@@ -14,12 +15,12 @@ const Navbar = () => {
         {
           name: 'Resume',
           icon: <AiOutlineFileText />,
-          url: "resume"
+          url: "/portofolio/resume"
         },
         {
           name: 'About Me',
           icon: <BsPersonFill />,
-          url: "about"
+          url: "/portofolio/about"
         }
       ];
   return (
@@ -40,14 +41,14 @@ const Navbar = () => {
             </div>
             <div className='w-[500px] flex justify-end items-center gap-5'>
                 {links.map((link) => (
-                    <a href={link.url} >
+                    <Link to={link.url} >
                         <div className='hover:scale-110 flex justify-start items-center gap-1'>
                             {link.icon}
                             <h1 className='font-medium text-[16px]'>
                                 {link.name}
                             </h1>
                         </div>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>

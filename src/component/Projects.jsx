@@ -3,14 +3,15 @@ import hli from '../assets/hli.png'
 import mvn from '../assets/mvn.png'
 import jataka from '../assets/jataka.png'
 import digi from '../assets/digismart.png'
+import perpus from '../assets/perpus.png'
 
 const Projects = () => {
     const proj=[
         {
-            name: "Home Learning Indonesia",
-            photo: hli,
-            code:"Javascript, ReactJS, and Tailwind CSS ",
-            url: "https://hli.co.id/"
+            name: "Digismart",
+            photo: digi,
+            code:"Javascript, NextJS, and AntDesign ",
+            url: "https://marketplace.digiswap.finance/"
         },
         {
             name: "Jataka",
@@ -25,11 +26,17 @@ const Projects = () => {
             url: "https://metavisinusantara.com/"
         },
         {
-            name: "Digismart",
-            photo: digi,
-            code:"Javascript, NextJS, and AntDesign ",
-            url: "https://marketplace.digiswap.finance/"
-        }
+            name: "Home Learning Indonesia",
+            photo: hli,
+            code:"Javascript, ReactJS, and Tailwind CSS ",
+            url: "https://hli.co.id/"
+        },
+        {
+            name: "Perpustakaan UNIMMA",
+            photo: perpus,
+            code:"Elementor, Wordpress, and CPanel",
+            url: "https://lib.unimma.ac.id/"
+        },
     ]
   return (
     <>

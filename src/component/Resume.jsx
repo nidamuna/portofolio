@@ -16,8 +16,19 @@ import Reactjs from '../assets/react.svg'
 import Tailwind from '../assets/tailwind.png'
 import Word from '../assets/wordpress.svg'
 import Next from '../assets/next.png'
+import myDocument from '../assets/myDocument.pdf';
 
 const Resume = () => {
+
+  const downloadFile = () => {
+    const link = document.createElement('a');
+    link.href = myDocument;
+    link.download = 'myDocument.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const links=[
     {
       name: "Linkedin",
@@ -217,6 +228,23 @@ const Resume = () => {
                           Redesign the library's website and manage its content.                      
                         </p>
                       </div>
+                    </div>
+                  </div>
+              </div>
+              {/* download */}
+              <div className="w-full pl-10">
+                  <div className='pr-5 my-8 w-full flex flex-col justify-start items-start'>
+                    <h1 className='font-bold text-[30px] w-[70%]'>
+                      Download it
+                    </h1>
+                    <div className='bg-[#3a0f6c] w-[400px] h-[2px]' />
+                    <div className='mt-8 font-semibold'>
+                        <h1>
+                          You could obtain a copy of my resume by downloading it
+                        </h1>
+                          <button onClick={downloadFile} className='hover:scale-110 mt-6 border-2 border-[#3a0f6c] px-4 py-2 rounded-full'>
+                            Download my resume
+                          </button>
                     </div>
                   </div>
               </div>
