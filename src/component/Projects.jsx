@@ -41,28 +41,28 @@ const Projects = () => {
     ]
   return (
     <>
-        <div id="projects" className='pr-5 my-8 w-full min-h-[500px] flex flex-col justify-start items-start'>
+        <div id="projects" className='-ml-[57px] md:ml-0 mt-[230px] md:mt-0 pr-5 my-8 w-full min-h-[500px] flex flex-col justify-start items-start'>
            <div className='w-full'>
                 <h1 className='font-bold text-[30px] w-[70%]'>
                     Projects I've Completed
                 </h1>
-                <div className='bg-[#3a0f6c] w-[400px] h-[2px]' />
+                <div className='bg-[#3a0f6c] w-[200px] md:w-[400px] h-[2px]' />
            </div>
-            <div className='grid grid-cols-2 gap-10 mt-9'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-9'>
                 {proj.map((link) => (
                     <>
-                        <div className='w-[450px] h-[300px] overflow-hidden rounded-xl border-[2px] border-[#274c77] hover:border-[#104256] '>
+                        <div className='w-[250px] md:w-[450px] h-[200px] md:h-[300px] overflow-hidden rounded-xl border-[2px] border-[#274c77] hover:border-[#104256] '>
                             <img
-                                className='w-[450px] h-[200px] -z-10'
+                                className='w-[250px] md:w-[450px] h-[120px] md:h-[200px] -z-10'
                                 src={link.photo}
                                 alt={link.name}
                             />
                             <a href={link.url} target="_blank" rel="noreferrer">
-                                <div className='z-30 w-[450px] h-[100px] p-5 text-white overflow-hidden bg-[#274c77] hover:bg-[#104256]'>
-                                   <p className='font-medium text-[20px]'>
+                                <div className='z-30 w-[250px] md:w-[450px] h-[80px] md:h-[100px] p-5 text-white overflow-hidden bg-[#274c77] hover:bg-[#104256]'>
+                                   <p className='font-medium text-[18px] md:text-[20px]'>
                                         {link.name}
                                    </p>
-                                   <p className='font-normal text-[16px] italic'>
+                                   <p className='font-normal text-[12px] md:text-[16px] italic'>
                                         {link.code}
                                    </p>
                                 </div>
@@ -75,7 +75,7 @@ const Projects = () => {
                 <h1 className='font-bold text-[30px] w-[70%]'>
                     My Resume
                 </h1>
-                <div className='bg-[#3a0f6c] w-[400px] h-[2px]' />
+                <div className='bg-[#3a0f6c] w-[200px] md:w-[400px] h-[2px]' />
                 <div className='mt-8 font-semibold'>
                     <h1>
                         If you would like to learn more about 

@@ -1,5 +1,5 @@
 import React from "react";
-import {BsLinkedin, BsGithub, BsInstagram} from "react-icons/bs"
+import {BsLinkedin, BsGithub, BsInstagram, BsTelegram} from "react-icons/bs"
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Service from "./Service";
@@ -22,10 +22,15 @@ function Home() {
       icon: <BsInstagram />,
       url: "https://github.com/nidamuna"
     },
+    {
+      name: "Telegram",
+      icon: <BsTelegram />,
+      url: "https://t.me/nidamuna"
+    },
   ]
   return (
    <>
-      <div className="w-full h-auto p-16 bg-[#edede9] dark:bg-[#5e5e5e] text-[#393d3f]">
+      <div className="w-full h-auto p-8 md:p-16 bg-[#edede9] dark:bg-[#5e5e5e] text-[#393d3f]">
         <div className="bg-white dark:bg-[#edede9] p-5 rounded-xl shadow-xl">
           <Navbar />
           <div className="flex">
@@ -38,7 +43,7 @@ function Home() {
                      </div>
                   ))}
             </div>
-            <div className="w-full pl-10">
+            <div className="w-full pl-5 md:pl-10">
                 <Hero />
                 <Service />
                 <Projects />
