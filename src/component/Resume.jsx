@@ -198,7 +198,7 @@ const Resume = () => {
                       <div className="w-[3px] mx-5 bg-[#3a0f6c] rounded-full" />
                       <div>
                         <p className="text-[10px] italic">
-                          2022 - Present
+                          2022 - 2023
                         </p>
                         <p className="text-[12px] mt-5">
                           Responsible for developing user interfaces on websites using React.js, Tailwind CSS, and Web3.   
