@@ -11,7 +11,7 @@ const Service = () => {
         </h1>
         <div className='bg-[#3a0f6c] w-[200px] h-[2px]' />
         <div className='flex flex-col md:flex-row mt-8 w-full rounded-xl bg-[#ceb6cc] p-5'>
-            <div className='w-full md:w-[50%]'>
+            <div className='w-full md:w-[70%]'>
                 <h1 className='font-semibold text-[20px] mb-5'>
                     Frontend Developer
                 </h1>

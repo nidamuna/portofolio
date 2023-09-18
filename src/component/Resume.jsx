@@ -16,7 +16,7 @@ import Reactjs from '../assets/react.svg'
 import Tailwind from '../assets/tailwind.png'
 import Word from '../assets/wordpress.svg'
 import Next from '../assets/next.png'
-import myDocument from '../assets/myDocument.pdf';
+import myDocument from '../assets/Nida Muna Resume Eng.pdf';
 import Icon from "./Icon";
 
 const Resume = () => {
@@ -24,7 +24,7 @@ const Resume = () => {
   const downloadFile = () => {
     const link = document.createElement('a');
     link.href = myDocument;
-    link.download = 'myDocument.pdf';
+    link.download = 'Nida Muna Resume Eng.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -139,13 +139,13 @@ const Resume = () => {
             </div>
             <div className="flex flex-col">
               {/* code */}
-              <div className="w-full pl-0 md:pl-10">
+              <div className="w-[140%] pl-0 md:pl-10">
                   <div className='pr-5 my-8 w-full min-h-[500px] flex flex-col justify-start items-start'>
                     <h1 className='font-bold text-[20px] md:text-[30px] w-[70%]'>
                       Program Language I Use
                     </h1>
                     <div className='bg-[#3a0f6c] w-[250px] md:w-[300px] h-[2px]' />
-                    <div className="w-[270px] md:w-[850px] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                    <div className="w-[270px] md:w-[100%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
                       <h1 className="text-[16px] font-[450px] italic">
                         Program language I use for building client-side applications
                       </h1>
@@ -161,7 +161,7 @@ const Resume = () => {
                           ))}
                       </div>
                     </div>
-                    <div className="w-[270px] md:w-[850px] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                    <div className="w-[270px] md:w-[100%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
                       <h1 className="text-[16px] font-[450px] italic">
                         Another tech
                       </h1>
@@ -180,13 +180,38 @@ const Resume = () => {
                   </div>
               </div>
               {/* work */}
-              <div className="w-full pl-0 md:pl-10">
+              <div className="w-[140%] pl-0 md:pl-10">
                   <div className='pr-5 my-8 w-full min-h-[500px] flex flex-col justify-start items-start'>
                   <h1 className='font-bold text-[20px] md:text-[30px] w-[70%]'>
                       Work Experience
                     </h1>
                     <div className='bg-[#3a0f6c] w-[250px] md:w-[300px] h-[2px]' />
-                    <div className="w-[270px] md:w-[850px] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                    <div className="w-[270px] md:w-[100%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                      <div className="w-full md:w-[70%]">
+                        <h1 className="text-[20px] font-semibold">
+                          Supporting Staff Programmer
+                        </h1>
+                        <h1 className="text-[16px] font-[400px]">
+                          Dinas Komunikasi dan Informatika Kabupaten Magelang
+                        </h1>
+                      </div>
+                      <div className="w-[3px] mx-5 bg-[#3a0f6c] rounded-full" />
+                      <div>
+                        <p className="text-[10px] italic">
+                          2023 - present
+                        </p>
+                        <p className="text-[12px] mt-5">
+                          Developing various applications and information systems required by Magelang District   
+                        </p>
+                        <p className="text-[12px] mt-2">
+                          Responsible for developing frontend and backend using CI, HTML, PHP, CSS
+                        </p>
+                        <p className="text-[12px] mt-2">
+                          Completed tasks according to the given deadlines
+                        </p>
+                      </div>
+                    </div>
+                    <div className="w-[270px] md:w-[100%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
                       <div className="w-full md:w-[30%]">
                         <h1 className="text-[20px] font-semibold">
                           Frontend Developer
@@ -198,7 +223,7 @@ const Resume = () => {
                       <div className="w-[3px] mx-5 bg-[#3a0f6c] rounded-full" />
                       <div>
                         <p className="text-[10px] italic">
-                          2022 - Present
+                          2022 - 2023
                         </p>
                         <p className="text-[12px] mt-5">
                           Responsible for developing user interfaces on websites using React.js, Tailwind CSS, and Web3.   
@@ -211,8 +236,8 @@ const Resume = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="w-[270px] md:w-[850px] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
-                    <div className="w-full md:w-[26%]">
+                    <div className="w-[270px] md:w-[100%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                    <div className="w-full md:w-[50%]">
                         <h1 className="text-[20px] font-semibold">
                           IT Staff
                         </h1>
@@ -220,7 +245,7 @@ const Resume = () => {
                           The Library of Muhammadiyah University of Magelang
                         </h1>
                       </div>
-                      <div className="w-[3px] mx-5 bg-[#3a0f6c] rounded-full" />
+                      <div className="w-[30px] mx-5 bg-[#3a0f6c] rounded-full" />
                       <div>
                         <p className="text-[10px] italic">
                           2021 - 2022

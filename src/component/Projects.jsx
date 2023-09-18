@@ -3,11 +3,18 @@ import hli from '../assets/hli.png'
 import mvn from '../assets/mvn.png'
 import jataka from '../assets/jataka.png'
 import digi from '../assets/digismart.png'
+import icw from '../assets/icw.png'
 import perpus from '../assets/perpus.png'
 import { Link } from 'react-router-dom'
 
 const Projects = () => {
     const proj=[
+        {
+            name: "Indo Circular Waste",
+            photo: icw,
+            code:"Javascript, ReactJS, Tailwind CSS, and AntDesign ",
+            url: "https://www.indocircularwaste.co.id/"
+        },
         {
             name: "Digismart",
             photo: digi,
@@ -48,7 +55,7 @@ const Projects = () => {
                 </h1>
                 <div className='bg-[#3a0f6c] w-[200px] md:w-[400px] h-[2px]' />
            </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-9'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mt-9'>
                 {proj.map((link) => (
                     <>
                         <div className='w-[250px] md:w-[450px] h-[200px] md:h-[300px] overflow-hidden rounded-xl border-[2px] border-[#274c77] hover:border-[#104256] '>

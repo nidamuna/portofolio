@@ -81,7 +81,7 @@ const About = () => {
                                     </div>
                                 </div>
                                 {/* Edu */}
-                                <div className="w-[270px] md:w-[850px] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                                <div className="w-[270px] md:w-[90%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
                                     <h1 className="text-[26px] font-semibold italic">
                                         My Education
                                     </h1>
@@ -106,12 +106,12 @@ const About = () => {
                         </div>
                         {/* cert */}
                         <div className="w-full p-0 md:pl-10">
-                            <div className='pr-5 my-8 w-full min-h-[500px] flex flex-col justify-start items-start'>
+                            <div className='pr-5 my-8 w-full min-h-[200px] flex flex-col justify-start items-start'>
                             <h1 className='font-bold text-[20px] md:text-[30px] w-[70%]'>
                                     Certification
                                 </h1>
                                 <div className='bg-[#3a0f6c] w-[250px] md:w-[300px] h-[2px]' />
-                                <div className="w-[270px] md:w-[850px] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                                <div className="w-[270px] md:w-[90%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
                                     <h1 className='font-bold text-[18px]'>
                                         Certification Completeness: Front-End Development Libraries 
                                     </h1>
@@ -140,7 +140,7 @@ const About = () => {
                                     Publication
                                 </h1>
                                 <div className='bg-[#3a0f6c] w-[250px] md:w-[300px] h-[2px]' />
-                                <div className="w-[270px] md:w-[850px] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
+                                <div className="w-[270px] md:w-[90%] bg-[#ebdbea] rounded-lg shadow-xl min-h-[200px] p-8 ml-0 md:ml-8 mt-8">
                                     <h1 className='font-bold text-[18px]'>
                                         Optimization of Expert System for Agriculture Development of Zalacca Tree in Srumbung: A Literature Study                                    
                                     </h1>
