@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.c0470c5c.css",
-    "main.js": "/portofolio/static/js/main.d89b2900.js",
+    "main.css": "/portofolio/static/css/main.2f84c6ca.css",
+    "main.js": "/portofolio/static/js/main.cac11406.js",
     "static/js/27.a6fa944c.chunk.js": "/portofolio/static/js/27.a6fa944c.chunk.js",
     "static/media/nida.png": "/portofolio/static/media/nida.272db99f425208f46de3.png",
     "static/media/jataka.png": "/portofolio/static/media/jataka.77ecfd9a7329cbe8f227.png",
+    "static/media/icw.png": "/portofolio/static/media/icw.e0d318a1ce8e5fa4cb3d.png",
     "static/media/me.png": "/portofolio/static/media/me.f3ebc43717163db5b44d.png",
     "static/media/perpus.png": "/portofolio/static/media/perpus.6b87e5e57bdc530ee5bd.png",
     "static/media/hli.png": "/portofolio/static/media/hli.6322c9142e80f805f868.png",
     "static/media/digismart.png": "/portofolio/static/media/digismart.0be06bd8500f97ffed7e.png",
     "static/media/mvn.png": "/portofolio/static/media/mvn.147254ccac42fd26b0f7.png",
+    "static/media/Nida Muna Resume Eng.pdf": "/portofolio/static/media/Nida Muna Resume Eng.c40fda0dabaf622b8f29.pdf",
     "static/media/cpanel.jpg": "/portofolio/static/media/cpanel.6a6cccf67c7e58aa0dfc.jpg",
-    "static/media/myDocument.pdf": "/portofolio/static/media/myDocument.63fa60208b8dd5d9bf50.pdf",
     "static/media/logo.png": "/portofolio/static/media/logo.8e413af6dc1402eee73e.png",
     "static/media/wordpress.svg": "/portofolio/static/media/wordpress.b18b181544ddacc548bbf41b675eb73c.svg",
     "static/media/react.svg": "/portofolio/static/media/react.7c738c950f567912bdc20a7e1a0af183.svg",
@@ -28,7 +29,7 @@
     "static/media/npm.svg": "/portofolio/static/media/npm.6200546b4fadc8853083a7f58e2cb2ae.svg"
   },
   "entrypoints": [
-    "static/css/main.c0470c5c.css",
-    "static/js/main.d89b2900.js"
+    "static/css/main.2f84c6ca.css",
+    "static/js/main.cac11406.js"
   ]
 }
