@@ -20,7 +20,7 @@ function Home() {
     {
       name: "Instagram",
       icon: <BsInstagram />,
-      url: "https://github.com/nidamuna"
+      url: "https://instagram.com/nidafadhilla_?igshid=OGQ5ZDc2ODk2ZA=="
     },
     {
       name: "Telegram",
